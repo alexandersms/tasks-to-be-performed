@@ -1,8 +1,6 @@
 import React from "react";
-import { Text } from "react-native";
+import Header from "./components/header";
 
-const App = () => {
-  return <Text>Test Mon application React Native</Text>;
-};
+const App = () => <Header content="Tâches à effectuer" content2="React Native App" content3="Liste des tâches" />;
 
 export default App;
